@@ -319,7 +319,7 @@ WantedBy=multi-user.target
 
 EOF
 ```
-> 注意每台etcd服务器的配置，修改相应的配置项：**--name=etcd1**、**IP地址**
+> 注意每台etcd服务器的配置，修改相应的配置项：**--name=etcd1、IP地址**
 ## 启动ETCD
 ```
 systemctl daemon-reload
