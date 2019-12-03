@@ -1,13 +1,13 @@
-# kubernetes 1.9.1
+# kubernetes 1.15
 > 文中涉及到的所有文件均已上传至百度云盘。链接: https://pan.baidu.com/s/1jJMBjQA 密码: 4epq
 
 ## 环境说明
 
 | 主机名称 | IP | 备注 | 系统 | 配置 |
 | ----- |:----:|:-----:|:-----:|:----:|
-| k8s-master-149 | 192.168.134.149 | master、etcd、flannel、node | CentOS7.4 x86_64 | 2C2G20G(虚拟机) |
-| k8s-mastet-150 | 192.168.134.150 | master、etcd、flannel、node | CentOS7.4 x86_64 | 2C2G20G(虚拟机) |
-| k8s-master-151 | 192.168.134.151 | master、etcd、flannel、node | CentOS7.4 x86_64 | 2C2G20G(虚拟机) |
+| VM_32_69_centos | 10.0.32.69 | master、etcd、flannel、node | CentOS7.6 x86_64 | 4C8G50G(虚拟机) |
+| VM_32_87_centos | 10.0.32.87 | master、etcd、flannel、node | CentOS7.6 x86_64 | 4C8G50G(虚拟机) |
+| VM_32_114_centos | 10.0.32.114 | master、etcd、flannel、node | CentOS7.6 x86_64 | 4C8G50G(虚拟机) |
 
 ## 初始化环境
 
